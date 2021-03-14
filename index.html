@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Document</title>
+    <style>
+        p{
+            font-size: 130%;
+        }
+        h1{
+            background-color: rgb(109, 161, 104);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+    <h1 style="color: blue;">Class 1 Lab</h1>
+
+    </header>
+
+    
+    <main>
+    <p style="color: brown;">Cosmetic contact lenses are typically used to enhance or alter the color of the eye.Sometimes this is done for theatrical reasons and other times it is for personal reasons.  
+        Cosmetic contacts can be prescribed in both vision correcting and non-vision correcting versions. Both are considered medical devices and require a doctor's prescription. 
+        </p>
+        <p style="color
+        :rgb(188, 226, 84);background-color:grey;">
+        what is your name?
+        </p>
+
+        <p style="color
+        :rgb(134, 107, 168);background-color:rgb(148, 170, 51);">
+        how old are you?
+        </p>
+
+        <p style="color
+        :rgb(192, 54, 112);background-color:rgb(36, 104, 143);">
+        where are you from?
+        </p>
+
+        <p style="color: rgb(17, 66, 66);background-color:rgb(207, 107, 191);">
+            what do you want bella or natural?
+        </p>
+    
+
+        <img style="width: 160px; height: 160px;" src="https://www.telegraph.co.uk/content/dam/technology/2019/08/06/TELEMMGLPICT000205745908_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQfyf2A9a6I9YchsjMeADBa08.jpeg" alt="lense">
+         <script>
+             alert("hi from Hanan"); 
+             
+             let name =prompt("what is your name");
+             console.log("your name is " + name);
+             alert("your name is " + name)
+
+             let age = prompt("please enter your age");
+             console.log("your age is " + age);
+             alert("your age is " + age)
+
+             let country = prompt("where are you from?");
+             console.log("you are from " + country);
+             alert("you are from " + country)
+         
+             let order = prompt("What do you want bella or natural?");
+             
+             alert("you entered " + order);
+             
+             
+             while(order != 'bella' && order !='natural' )
+             {
+                order = prompt("what do you want bella or natural?");
+             }
+
+             let itemOrder = '';
+
+             if (order == 'bella')
+              {
+              itemOrder = '<img src="https://ainak.pk/wp-content/uploads/2019/04/Bella-Natural-Copy-7.jpg"/>';
+               console.log("you selected " + order)
+            }
+                else 
+                 {
+                itemOrder = '<img src="https://media.zid.store/d97e41ac-353f-406c-82f0-5fc7cb2f8782/3c773a4e-a3f2-4920-93fb-57ac69474cf5.jpeg"/>'; 
+             console.log("you selected " + order)
+            }
+            
+             document.write(itemOrder)
+         </script>
+    </main>
+    <footer>
+        &copy;by Hanan
+    </footer>
+</body>
+</html>
